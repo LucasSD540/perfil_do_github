@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 32px;
+    color: #fff;
+}
+
+:root {
+    --corPrincipal: #f9ca24;
+    --corSecundaria: #111;
+}
+
+.userForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 128px;
+}
+
+.enterUser {
+    padding: 4px;
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+
+.userBtn {
+    background-color: green;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 4px;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home {
+    border: 2px solid #111;
+    border-radius: 20px;
+    padding-bottom: 48px;
+    margin-top: 128px;
+    background-color: #111;
+}
+
+.userFormLabel {
+    font-weight: bold;
+    padding-bottom: 16px;
+    color: #fff;
+}
