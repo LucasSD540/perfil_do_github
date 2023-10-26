@@ -18,3 +18,17 @@
     font-size: 18px;
     color: var(--corSecundaria);
 }
+
+.btn {
+    max-width: 100px;
+    width: 100%;
+    color: #fff;
+    background-color: green;
+    padding: 4px;
+    border-radius: 8px;
+    border: none;
+    position: fixed;
+    left: 5%;
+    top: 5%;
+    cursor: pointer;
+}
